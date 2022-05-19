@@ -10,8 +10,11 @@
 <body>
     <header>
         <picture> 
-            <img src="./Imagens/Logo.png" alt="Guitarrinha" />
-
+          <p>
+            <a href="./index.html">
+              <img src="./Imagens/Logo.png" alt="Guitarrinha" />
+            </a>
+          </p>
         </picture>
         <nav>
           <ul>
@@ -35,6 +38,46 @@
       </header>
       <main class="content">
         <section class="auth">
+          <h1>Cadastre-se</h1>
+          <form action="cadastrar.html" method="post">
+            <label for="nome">Nome</label>
+            <div>
+              <img src="./Imagens/person 1.png" alt="Person" />
+              <input
+                type="text"
+                name="nome"
+                id="nome"
+                required
+                placeholder="Nome"
+              />
+            </div>
+            <label for="email">E-mail</label>
+            <div>
+              <img src="./Imagens/email 1.png" alt="Email" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="E-mail"
+              />
+            </div>
+            <label for="senha">Senha</label>
+            <div>
+              <img src="./Imagens/key 1.png" alt="Key" />
+              <input
+                type="password"
+                name="senha"
+                id="senha"
+                required
+                placeholder="Senha"
+              />
+            </div>
+            <p>
+              Já possui conta? <a href="login.html">Faça login</a>
+              <button type="submit">Entrar</button>
+            </p>
+          </form>
         </section>
       </main>
       <footer>
@@ -61,18 +104,18 @@
           </a>
         </div>
         <div>
-        <ul>
-          <li>
-            <a 
-            href="">Termos De Uso
-          </a>
-        </li>
-        <li>
-            <a href="">Suporte
+          <ul>
+            <li>
+              <a 
+              href="./termos de uso.html">Termos De Uso
             </a>
           </li>
-        </ul>
-      </div>
+          <li>
+              <a href="./suporte.html">Suporte
+              </a>
+            </li>
+          </ul>
+        </div>
       </footer>
 </body>
 </html>
