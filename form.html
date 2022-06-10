@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula de Web I</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/responsivo.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+  </head>
+  <body>
+    <header>
+      <picture>
+        <a href="index.html">
+          <img src="./Imagens/Logo.png" alt="Logo" />
+        </a>
+      </picture>
+      <nav>
+        <input id="menu-toggle" type="checkbox" />
+        <label for="menu-toggle">
+          <div class="menu-hamburger">
+            <span class="hamburger"></span>
+          </div>
+        </label>
+        <ul>
+          <li>
+            <a href="form.html">Formulário</a>
+          </li>
+          <li>
+            <a href="tabela.html">Tabela</a>
+          </li>
+          <li>
+            <a href="login.html">Login</a>
+          </li>
+          <li>
+            <a href="cadastrar.html">Cadastre-se</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+        <main class="content">
+          <form method="POST" action="" enctype="multipart/form-data">
+            <fieldset>
+              <legend>Contato</legend>
+              <div>
+                <label for="id">Nome:</label>
+                <input
+                  type="text"
+                  name="nome"
+                  placeholder="José"
+                  id="id"
+                />
+              </div>
+              <div>
+                <label for="email">E-mail: </label>
+                <input type="text" name="E-mail" id="email" placeholder="jose@jose.com" />
+              </div>
+              <input type="radio" id="masc" name="sexo" value="Masculino" required/><label for="masc">Masculino</label>
+              <input type="radio" id="fem" name="sexo" value="Feminino" required/><label for="fem">Feminino</label> <br />
+              <label for="reg">Estado/Cidade</label>
+              <select name="Estado/Cidade" id="reg" required>
+                <option></option>
+                <option>SP</option>
+                <option>RJ</option>
+                <option>MG</option>
+                <option>ES</option>
+              </select>      
+              <input
+              type="text"
+              name="nome"
+            /><br />
+            <label for="arq">Selecione um arquivo</label>
+            <input type="file" name="arquivo[]" id="arq" multiple /><br />
+            </div>
+              <label for="ano">Sugestão:</label>
+              <br />
+              <textarea name="mensagem"></textarea>
+              <br />
+              <button type="submit"><picture ><img src="./Imagens/enviar.png"/></picture></button>
+            </fieldset>
+          </form>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </main>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </main>
+    <footer>
+        <div class="content">
+            <a href="https://facebook.com" target="_blank">
+              <img src="./Imagens/face icone.png" alt="Facebook" />
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <img src="./Imagens/insta icone.png" alt="Instagram" />
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+              <img src="./Imagens/linkedin icone.png" alt="Linkedin" />
+            </a>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <a 
+                href="./termos de uso.html">Termos De Uso
+              </a>
+            </li>
+            <li>
+                <a href="./suporte.html">Suporte
+                </a>
+              </li>
+            </ul>
+          </div>
+    </footer>
+  </body>
+</html>
