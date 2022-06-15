@@ -1,89 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Acorde Club</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vídeo de Web I HTML e CSS</title>
     <link rel="stylesheet" href="css/estilo.css" />
     <link rel="stylesheet" href="css/responsivo.css" />
     <link rel="stylesheet" href="css/menu.css" />
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <picture>
-          <p>
-            <a href="./index.html">
-              <img src="./Imagens/Logo.png" alt="Guitarrinha" />
-            </a>
-          </p>
-        </picture>
-        <nav>
-          <ul>
-        <picture >
-          <img src="./Imagens/Group 1.png" alt="Titulo" />
-        </picture >
-      </ul>
+      <picture>
+        <a href="index.html">
+          <img src="./Imagens/Logo.png" alt="Logo" />
+        </a>
+      </picture>
+      <nav>
+        <ul>
+      <picture >
+        <img src="./Imagens/Group 1.png" alt="Titulo" />
+      </picture >
+    </ul>
+    </nav>
+      <nav>
+        <input id="menu-toggle" type="checkbox" />
+        <label for="menu-toggle">
+          <div class="menu-hamburger">
+            <span class="hamburger"></span>
+          </div>
+        </label>
+        <ul>
+          <li>
+            <a href="form.html">Formulário</a>
+          </li>
+          <li>
+            <a href="tabela.html">Tabela</a>
+          </li>
+          <li>
+            <a href="login.html">Login</a>
+          </li>
+          <li>
+            <a href="cadastrar.html">Cadastre-se</a>
+          </li>
+        </ul>
       </nav>
-        <nav>
-          <input id="menu-toggle" type="checkbox" />
-          <label for="menu-toggle">
-            <div class="menu-hamburger">
-              <span class="hamburger"></span>
-            </div>
-          </label>
-            <ul>
-              <li>
-                <a href="form.html">Formulário</a>
-              </li>
-              <li>
-                <a href="tabela.html">Tabela</a>
-              </li>
-                <li>
-                  <a 
-                  href="">Login
-                </a>
-                </li>
-                <li>
-                  <a href="">Cadastre-se</a>
-                </li>
-              </ul>
-        </nav>
-      </header>
-      <main class="content">
-        <section class="auth">
-          <h1>Login</h1>
-          <form action="cadastrar.html" method="post">
-            <label for="email">E-mail</label>
-            <div>
-              <img src="./Imagens/email 1.png" alt="Email" />
-              <input
-                type="email"
-                name="email"
-                id="email"
-                required
-                placeholder="E-mail"
-              />
-            </div>
-            <label for="senha">Senha</label>
-            <div>
-              <img src="./Imagens/key 1.png" alt="Key" />
-              <input
-                type="password"
-                name="senha"
-                id="senha"
-                required
-                placeholder="Senha"
-              />
-            </div>
-            <p>
-              Não possui conta? <a href="cadastrar.html">Cadastre-se</a>
-              <button type="submit">Entrar</button>
-            </p>
-          </form>
-        </section>
-      </main>
-      <footer>
+    </header>
+    <main class="content">
+      <section class="auth">
+        <h1>Login</h1>
+        <form action="cadastrar.html" method="post">
+          <label for="email">E-mail</label>
+          <div>
+            <img src="./Imagens/email 1.png" alt="Email" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="E-mail"
+            />
+          </div>
+          <label for="senha">Senha</label>
+          <div>
+            <img src="./Imagens/key 1.png" alt="Key" />
+            <input
+              type="password"
+              name="senha"
+              id="senha"
+              required
+              placeholder="Senha"
+            />
+          </div>
+          <p>
+            Não possui conta? <a href="cadastrar.html">Cadastre-se</a>
+            <button type="submit">Entrar</button>
+          </p>
+        </form>
+      </section>
+    </main>
+    <footer>
         <div>
           <a href="https://facebook.com" target="_blank">
             <svg
@@ -109,16 +105,13 @@
         <div>
           <ul>
             <li>
-              <a 
-              href="./termos de uso.html">Termos De Uso
-            </a>
-          </li>
-          <li>
-              <a href="./suporte.html">Suporte
-              </a>
+              <a href="./termos de uso.html">Termos De Uso </a>
+            </li>
+            <li>
+              <a href="./suporte.html">Suporte </a>
             </li>
           </ul>
         </div>
       </footer>
-</body>
+  </body>
 </html>
